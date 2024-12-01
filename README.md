@@ -5,6 +5,6 @@ This assingment was given to me to be done by hand but i found it boring cause I
 Each letter is represented as a node with an integer value corresponding to their position in the alphabet order (0 - 25).
 The edge is made according to the image and I topologically sort the graph with the algorithm.
 
-##The Algorithm
+## The Algorithm
 For each node in order I perform dfs traversal until the current node has no adjacent nodes, then I add that node to a stack. I also keep track of all visited nodes to prevent infinte recursions.
 At the end of the process I will have a stack that represents the order of the nodes in reverse topological order which I will then use to draw a new graph with topological order to answer the assignment.
