@@ -7,5 +7,5 @@ To model the problem I used an array of linked lists to represent a node and its
 The edges are made according to the image and I topologically sort the graph with the algorithm.
 
 ## The Algorithm
-For each node in order I perform dfs traversal until the current node has no adjacent nodes, then I add that node to a stack. I also keep track of all visited nodes to prevent infinte recursions.
+For each node in order I perform dfs traversal until the current node has no adjacent nodes, then I add that node to a stack. Once all adjacent nodes of a parent node are pushed to the stack I push the parent node to the stack. I also keep track of all visited nodes to prevent infinte recursions.
 At the end of the process I will have a stack that represents the order of the nodes in reverse topological order which I will then use to draw a new graph with topological order to answer the assignment.
