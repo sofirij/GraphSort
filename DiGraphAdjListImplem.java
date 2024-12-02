@@ -107,7 +107,7 @@ public class DiGraphAdjListImplem
          dfs(visited, stack, result);
       }
 
-      //add node worked on the result
+      //add node worked on to the result
       result.push(pop);
    }
    
