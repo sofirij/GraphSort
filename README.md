@@ -4,7 +4,7 @@
 This assignment was given to me to be done by hand but i found it boring cause I already understood the concept so I just tested myself by trying to solve the problem with code.
 Each letter is represented as a node with an integer value corresponding to their position in the alphabet order (0 - 25).
 To model the problem I used an array of linked lists to represent a node and its corresponding edges.
-The edge is made according to the image and I topologically sort the graph with the algorithm.
+The edges are made according to the image and I topologically sort the graph with the algorithm.
 
 ## The Algorithm
 For each node in order I perform dfs traversal until the current node has no adjacent nodes, then I add that node to a stack. I also keep track of all visited nodes to prevent infinte recursions.
