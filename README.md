@@ -1,9 +1,11 @@
 # GraphSort
 
+![Graph Diagram](https://github.com/user-attachments/assets/187566ba-3682-4d0e-8472-d699c404fdd3)
+
 GraphSort is a Java project that demonstrates topological sorting of a directed graph using an adjacency list representation. The project was inspired by a manual assignment, but was implemented in code to automate and visualize the solution process.
 
 ## Project Overview
-This project models each letter as a node, assigning an integer value based on its position in the alphabet (0-25). The graph is constructed using an array of linked lists, where each node contains a list of its adjacent nodes (edges). The edges are defined according to a provided diagram (see image above).
+This project models each letter as a node, assigning an integer value based on its position in the alphabet (0-25). The graph is constructed using an array of linked lists, where each node contains a list of its adjacent nodes (edges). The edges are defined according to the diagram above.
 
 ## Features
 - Directed graph representation using adjacency lists
